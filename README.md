@@ -1,1 +1,1 @@
-# mySeattle
+# Just my homework
