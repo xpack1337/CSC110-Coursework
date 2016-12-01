@@ -1,4 +1,4 @@
-token = '310414268:AAGSMv8nBkSIIBwTGkd2i7V3J_XkqavJ1zc'
+token = 'REALTOEKEN'
 url = 'https://api.telegram.org/bot{}'.format(token)
 import urllib.parse
 import urllib.request
