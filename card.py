@@ -9,7 +9,7 @@ from random import randint, choice
 class Card():
     #Define __init__ function to initialize a card
     def __init__(self,rank,suite):
-        if (int(rank) > 13) or (int(rank) < 1):
+        if rank > 13 or rank < 1:
             print ("Value of a card should be from 1 to 13")
         else:
             self.rank = rank
@@ -31,8 +31,7 @@ class Card():
         #if rank of a card is less than 10, then return it
        if self.rank < 10:
             return self.rank
-       self.rank = 10
-       return self.rank
+       return 10
     #Define a function that returns a verbous description of card
     def __str__(self):
         cardSuite = str() #empty variable for a card suit
