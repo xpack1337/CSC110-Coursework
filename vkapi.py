@@ -3,8 +3,8 @@ from math import log
 from urllib.request import urlretrieve
 
 
-login = '12063071028'
-password = 'Tupoitenni$228322'
+login = ''
+password = ''
 vk_id = '6035548'
 
 
