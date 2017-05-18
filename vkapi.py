@@ -5,7 +5,7 @@ from urllib.request import urlretrieve
 
 login = ''
 password = ''
-vk_id = '6035548'
+vk_id = ''
 
 
 session = vk.AuthSession(app_id=vk_id,user_login=login,user_password = password)
